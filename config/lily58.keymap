@@ -39,11 +39,11 @@
 // |       |       |     |      |      |      |        |  |       |      |  _    |  +    |  {   |   }   |  "|"  |
 //                     |      |      |      |        |  |       |      |       |       |
 			bindings = <
-&bt BT_CLR &bt BT_SEL 0     &bt BT_SEL 1      &bt BT_SEL 2      &bt BT_SEL 3 &bt BT_SEL 4                 &trans    &trans    &trans          &trans     &trans     &trans
-&kp GRAVE  &kp EXCL         &kp AT            &kp HASH          &kp DOLLAR   &kp PRCNT                    &kp CARET &kp AMPS  &kp KP_MULTIPLY &kp LPAR   &kp RPAR   &kp TILDE
-&kp RC(1)  &kp RC(2)        &kp RC(3)         &kp RC(4)         &kp RC(5)    &kp RC(6)                    &kp RC(7) &kp RC(8) &kp RC(9)       &kp RC(10) &kp RC(11) &kp RC(12)
-&trans     &ext_power EP_ON &ext_power EP_OFF &ext_power EP_TOG &trans       &trans    &trans   &trans    &trans    &kp MINUS &kp KP_PLUS     &kp LBRC   &kp RBRC   &kp PIPE
-                                              &trans            &trans       &trans    &trans   &trans    &trans    &trans    &trans
+&bt BT_CLR &bt BT_SEL 0     &bt BT_SEL 1      &bt BT_SEL 2      &bt BT_SEL 3 &bt BT_SEL 4                 &trans     &trans     &trans          &trans      &trans      &trans
+&kp GRAVE  &kp EXCL         &kp AT            &kp HASH          &kp DOLLAR   &kp PRCNT                    &kp CARET  &kp AMPS   &kp KP_MULTIPLY &kp LPAR    &kp RPAR    &kp TILDE
+&kp RC(N1) &kp RC(N2)       &kp RC(N3)        &kp RC(N4)        &kp RC(N5)   &kp RC(N6)                   &kp RC(N7) &kp RC(N8) &kp RC(N9)      &kp RC(N10) &kp RC(N11) &kp RC(N12)
+&trans     &ext_power EP_ON &ext_power EP_OFF &ext_power EP_TOG &trans       &trans    &trans   &trans    &trans     &kp MINUS  &kp KP_PLUS     &kp LBRC    &kp RBRC    &kp PIPE
+                                              &trans            &trans       &trans    &trans   &trans    &trans     &trans     &trans
 			>;
 
 			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
