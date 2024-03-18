@@ -41,7 +41,7 @@
 			bindings = <
 &bt BT_CLR &bt BT_SEL 0     &bt BT_SEL 1      &bt BT_SEL 2      &bt BT_SEL 3 &bt BT_SEL 4                 &trans     &trans     &trans          &trans      &trans      &trans
 &kp GRAVE  &kp EXCL         &kp AT            &kp HASH          &kp DOLLAR   &kp PRCNT                    &kp CARET  &kp AMPS   &kp KP_MULTIPLY &kp LPAR    &kp RPAR    &kp TILDE
-&trans     &kp RC(A)        &kp RC(S)         &kp RC(D)         &trans       &trans                       &trans     &trans     &trans          &trans      &trans      &kp PIPE
+&trans     &kp RALT(A)      &kp RALT(S)       &kp RALT(D)       &trans       &trans                       &trans     &trans     &trans          &trans      &trans      &kp PIPE
 &trans     &ext_power EP_ON &ext_power EP_OFF &ext_power EP_TOG &trans       &trans    &trans   &trans    &trans     &kp MINUS  &kp KP_PLUS     &kp LBRC    &kp RBRC    &trans
                                               &trans            &trans       &trans    &trans   &trans    &trans     &trans     &trans
 			>;
